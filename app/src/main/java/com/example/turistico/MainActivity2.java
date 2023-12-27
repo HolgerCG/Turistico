@@ -68,8 +68,8 @@ public class MainActivity2 extends AppCompatActivity {
         StringBuilder nombres = new StringBuilder();
         for (Lugar lugar : lugares) {
             nombres.append("Categoria: "+lugar.getCategoria()+
-                    "//  Nombre: "+ lugar.getNombre_lugar()+
-            "//  Telefono :"+ lugar.getTelefono()).append("\n");
+                    "  Nombre: "+ lugar.getNombre_lugar()+
+            "   Telefono :"+ lugar.getTelefono()).append("\n");
         }
         txtListaBancos.setText(nombres.toString());
     }
